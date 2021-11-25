@@ -1,0 +1,85 @@
+DY:
+  DYJetsToLL_M:
+    dataset: DYJetsToLL_M-50_Zpt-150toInf_TuneCP5_13TeV-madgraphMLM-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD.root, 
+    DY_boosted_in_total: 
+    DY_boosted_xsec:
+    DY_boosted_weight_sum: 
+    prescale // Z boosted iSample1
+  DYJetsToLL_M:
+    dataset: DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD.root, 
+    filepath: /eos/cms/store/group/phys_muon/moh/TnP_ntuples/muon/Z/Run2018_UL/MINIAOD/DYJetsToLL_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/crab_TnP_ntuplizer_muon_Z_Run2018_UL_MINIAOD_DY_madgraph/210625_155340/0000/
+    DY_incl_50_in_total:
+    DY_incl_50_xsec:
+    DY_incl_50_weight_sum: 
+    prescale); // Z  M50 iSample2
+top:
+  TTTo2L2Nu_TuneCP5_13TeV:
+    dataset: TTTo2L2Nu_TuneCP5_13TeV-powheg-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD.root,
+    ttto2l2nu_in_total:     ,
+    ttto2l2nu_xsec:     , 
+    ttto2l2nu_weight_sum: 
+    prescale);
+top:
+  TTToSemiLeptonic_TuneCP5_13TeV:
+  dataset: TTToSemiLeptonic_TuneCP5_13TeV-powheg-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD.root,
+    ttSemiLeptonic_in_total:
+    ttSemiLeptonic_xsec: 
+    ttSemiLeptonic_weight_sum: 
+    prescale);
+top:
+  ST_t:
+  ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD.root,
+  ST_t_antitop_in_total:  ,
+  ST_t_antitop_xsec  , 
+  ST_t_antitop_weight_sum, 
+  prescale);
+top:
+  ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV:
+  ST_tW_top_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD_ext1.root ,
+  ST_tW_top_in_total:     ,
+  ST_tW_top_xsec     , 
+  ST_tW_top_weight_sum, 
+  prescale);
+top:
+  ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV:
+  ST_tW_antitop_5f_inclusiveDecays_TuneCP5_13TeV-powheg-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD_ext1.root ,
+  ST_tW_antitop_in_total: ,
+  ST_tW_antitop_xsec ,
+  ST_tW_antitop_weight_sum, 
+  prescale);
+top:
+  ST_s:
+  ST_s-channel_4f_leptonDecays_TuneCP5_13TeV-madgraph-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v4_MINIAOD_ext1.root ,
+  ST_s_in_total: 
+    , ST_s_xsec 
+    , 
+    ST_s_weight_sum, prescale); 
+top:
+  ST_t:
+  ST_t-channel_top_4f_InclusiveDecays_TuneCP5_13TeV-powheg-madspin-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1_MINIAOD.root ,
+  ST_t_top_in_total: 
+    , ST_t_top_xsec 
+    , 
+    ST_t_top_weight_sum, prescale);   
+diboson:
+  WZ_TuneCP5_13TeV:
+  WZ_TuneCP5_13TeV-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v3_MINIAOD.root,
+  WZ_in_total:, 
+  WZ_xsec, 
+  WZ_weight_sum, 
+  prescale); 
+diboson:
+  ZZ_TuneCP5_13TeV:
+  ZZ_TuneCP5_13TeV-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v2_MINIAOD.root,
+  ZZ_in_total:, 
+  ZZ_xsec, 
+  ZZ_weight_sum, 
+  prescale);
+diboson:
+  WW_TuneCP5_13TeV:
+  WW_TuneCP5_13TeV-pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v2_MINIAOD.root,
+  WW_in_total:, 
+  WW_xsec, 
+  WW_weight_sum, 
+  prescale);
+
